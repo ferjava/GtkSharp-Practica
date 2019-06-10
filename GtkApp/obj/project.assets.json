@@ -854,11 +854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ferjava/Proyectos/GtkApp/GtkApp.csproj",
+      "projectUniqueName": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
       "projectName": "GtkApp",
-      "projectPath": "/home/ferjava/Proyectos/GtkApp/GtkApp.csproj",
+      "projectPath": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
       "packagesPath": "/home/ferjava/.nuget/packages/",
-      "outputPath": "/home/ferjava/Proyectos/GtkApp/obj/",
+      "outputPath": "/home/ferjava/projects/GtkApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
