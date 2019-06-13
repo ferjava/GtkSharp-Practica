@@ -1,0 +1,4 @@
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2.1\GtkApp.csprojAssemblyReference.cache
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2.1\GtkApp.csproj.CoreCompileInputs.cache
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2.1\GtkApp.AssemblyInfoInputs.cache
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2.1\GtkApp.AssemblyInfo.cs

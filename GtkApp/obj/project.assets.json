@@ -256,6 +256,30 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Win32.Registry/4.4.0-preview2-25405-01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0-preview2-25405-01",
+          "System.Security.AccessControl": "4.4.0-preview2-25405-01",
+          "System.Security.Principal.Windows": "4.4.0-preview2-25405-01"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -282,6 +306,69 @@
         },
         "runtime": {
           "lib/netstandard2.0/PangoSharp.dll": {}
+        }
+      },
+      "System.IO.Ports/4.4.0-preview2-25405-01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.4.0-preview2-25405-01"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.IO.Ports.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Ports.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.4.0-preview2-25405-01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0-preview2-25405-01",
+          "System.Security.Principal.Windows": "4.4.0-preview2-25405-01"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.4.0-preview2-25405-01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0-preview2-25405-01"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       }
     }
@@ -698,6 +785,64 @@
         "version.txt"
       ]
     },
+    "Microsoft.Win32.Registry/4.4.0-preview2-25405-01": {
+      "sha512": "UqIUdoXwhmgPaxFCts0cIGB1mDSFyDE6h2j597c+nBWuloxaOSs4zwEnR/RB3qBIyJdATC8OrSjyhQh1hUHfUQ==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.4.0-preview2-25405-01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "microsoft.win32.registry.4.4.0-preview2-25405-01.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net461/de/Microsoft.Win32.Registry.xml",
+        "ref/net461/es/Microsoft.Win32.Registry.xml",
+        "ref/net461/fr/Microsoft.Win32.Registry.xml",
+        "ref/net461/it/Microsoft.Win32.Registry.xml",
+        "ref/net461/ja/Microsoft.Win32.Registry.xml",
+        "ref/net461/ko/Microsoft.Win32.Registry.xml",
+        "ref/net461/ru/Microsoft.Win32.Registry.xml",
+        "ref/net461/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/net461/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/zh-hant/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "NETStandard.Library/2.0.0": {
       "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
@@ -839,37 +984,176 @@
         "pangosharp.3.22.24.37.nupkg.sha512",
         "pangosharp.nuspec"
       ]
+    },
+    "System.IO.Ports/4.4.0-preview2-25405-01": {
+      "sha512": "gDxfMo8Kg97h8AIzjez7M+u39Uf2PpWXwObRpaJWdM1DlAPdWftA8jFHvr3fhKL93fEABUXmNMjoEzkLftbf8Q==",
+      "type": "package",
+      "path": "system.io.ports/4.4.0-preview2-25405-01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Ports.dll",
+        "lib/netstandard2.0/System.IO.Ports.dll",
+        "ref/net461/System.IO.Ports.dll",
+        "ref/netstandard2.0/System.IO.Ports.dll",
+        "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll",
+        "system.io.ports.4.4.0-preview2-25405-01.nupkg.sha512",
+        "system.io.ports.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.4.0-preview2-25405-01": {
+      "sha512": "B0O8OrZ2XdM2NgL4lciwKYIylITRkinTy2QfJRwBULzQNLtJaKjYfvsyJDC/+VV7yTQGHWAjGSyu9yji/1ElqA==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.4.0-preview2-25405-01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/net461/de/System.Security.AccessControl.xml",
+        "ref/net461/es/System.Security.AccessControl.xml",
+        "ref/net461/fr/System.Security.AccessControl.xml",
+        "ref/net461/it/System.Security.AccessControl.xml",
+        "ref/net461/ja/System.Security.AccessControl.xml",
+        "ref/net461/ko/System.Security.AccessControl.xml",
+        "ref/net461/ru/System.Security.AccessControl.xml",
+        "ref/net461/zh-hans/System.Security.AccessControl.xml",
+        "ref/net461/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/de/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/es/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/fr/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/it/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/ja/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/ko/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/ru/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/zh-hant/System.Security.AccessControl.xml",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "system.security.accesscontrol.4.4.0-preview2-25405-01.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.4.0-preview2-25405-01": {
+      "sha512": "yKFdEsEfDSahLOZ7fB79cDigVCdYX8kOJfRVevqs4HKMMMIVyP6H3a6MFUATaHtZ7iG0W6WSC/GmZW5eO/aAvw==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.4.0-preview2-25405-01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/net461/de/System.Security.Principal.Windows.xml",
+        "ref/net461/es/System.Security.Principal.Windows.xml",
+        "ref/net461/fr/System.Security.Principal.Windows.xml",
+        "ref/net461/it/System.Security.Principal.Windows.xml",
+        "ref/net461/ja/System.Security.Principal.Windows.xml",
+        "ref/net461/ko/System.Security.Principal.Windows.xml",
+        "ref/net461/ru/System.Security.Principal.Windows.xml",
+        "ref/net461/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/net461/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/zh-hant/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "system.security.principal.windows.4.4.0-preview2-25405-01.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "GtkSharp >= 3.22.24.*",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "System.IO.Ports >= 4.4.0-preview2-25405-01"
     ]
   },
   "packageFolders": {
-    "/home/ferjava/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\fgsj\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
+      "projectUniqueName": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj",
       "projectName": "GtkApp",
-      "projectPath": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
-      "packagesPath": "/home/ferjava/.nuget/packages/",
-      "outputPath": "/home/ferjava/projects/GtkApp/obj/",
+      "projectPath": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj",
+      "packagesPath": "C:\\Users\\fgsj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/ferjava/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fgsj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -895,6 +1179,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "System.IO.Ports": {
+            "target": "Package",
+            "version": "[4.4.0-preview2-25405-01, )"
           }
         },
         "imports": [

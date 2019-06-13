@@ -1,4 +1,5 @@
 using System;
+using System.IO.Ports;
 using Gtk;
 using UI = Gtk.Builder.ObjectAttribute;
 
@@ -8,7 +9,7 @@ namespace GtkApp
     {
         [UI] private Label _label1 = null;
         [UI] private Button _button1 = null;
-
+             private SerialPort _puertoarduino = null;
         private int _counter;
 
         public MainWindow() : this(new Builder("MainWindow.glade")) { }
@@ -30,6 +31,9 @@ namespace GtkApp
         {
             _counter++;
             _label1.Text = "Hello World! This button has been clicked " + _counter + " time(s).";
+            _puertoarduino.WriteLine("HIGH");
+
         }
+        public  void PuertoArduino(SerialPort __serial) { _puertoarduino = __serial;}
     }
 }

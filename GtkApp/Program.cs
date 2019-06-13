@@ -1,4 +1,5 @@
 using System;
+using System.IO.Ports;
 using Gtk;
 
 namespace GtkApp
@@ -8,12 +9,17 @@ namespace GtkApp
         [STAThread]
         public static void Main(string[] args)
         {
+            SerialPort __pSerie = new SerialPort();
+            __pSerie.PortName ="COM3";
+            __pSerie.BaudRate = 9600;
+            __pSerie.Open();
             Application.Init();
 
             var app = new Application("org.GtkApp.GtkApp", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
 
             var win = new MainWindow();
+            win.PuertoArduino(__pSerie);
             app.AddWindow(win);
 
             win.Show();

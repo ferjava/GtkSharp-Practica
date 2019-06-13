@@ -1,0 +1,246 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "ac279999bdbe4b00798a9674e4e79a0cbee8c821"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "GtkApp/1.0.0": {
+        "dependencies": {
+          "GtkSharp": "3.22.24.37",
+          "System.IO.Ports": "4.4.0-preview2-25405-01"
+        },
+        "runtime": {
+          "GtkApp.dll": {}
+        }
+      },
+      "AtkSharp/3.22.24.37": {
+        "dependencies": {
+          "GLibSharp": "3.22.24.37"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AtkSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "CairoSharp/3.22.24.37": {
+        "runtime": {
+          "lib/netstandard2.0/CairoSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "GdkSharp/3.22.24.37": {
+        "dependencies": {
+          "CairoSharp": "3.22.24.37",
+          "GLibSharp": "3.22.24.37",
+          "GioSharp": "3.22.24.37",
+          "PangoSharp": "3.22.24.37"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GdkSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "GioSharp/3.22.24.37": {
+        "dependencies": {
+          "GLibSharp": "3.22.24.37"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GioSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "GLibSharp/3.22.24.37": {
+        "runtime": {
+          "lib/netstandard2.0/GLibSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "GtkSharp/3.22.24.37": {
+        "dependencies": {
+          "AtkSharp": "3.22.24.37",
+          "CairoSharp": "3.22.24.37",
+          "GLibSharp": "3.22.24.37",
+          "GdkSharp": "3.22.24.37",
+          "GioSharp": "3.22.24.37",
+          "PangoSharp": "3.22.24.37"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GtkSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry/4.4.0-preview2-25405-01": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.4.0-preview2-25405-01",
+          "System.Security.Principal.Windows": "4.4.0-preview2-25405-01"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "PangoSharp/3.22.24.37": {
+        "dependencies": {
+          "CairoSharp": "3.22.24.37",
+          "GLibSharp": "3.22.24.37"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PangoSharp.dll": {
+            "assemblyVersion": "3.22.24.37",
+            "fileVersion": "3.22.24.37"
+          }
+        }
+      },
+      "System.IO.Ports/4.4.0-preview2-25405-01": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.4.0-preview2-25405-01"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Ports.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25405.1"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25405.1"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.4.0-preview2-25405-01": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.4.0-preview2-25405-01"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.4.0-preview2-25405-01": {
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GtkApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtkSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-waMYtC39rKtjkMh3SaTI3027KLg0ds8F2pCTLG6pGOR7Dw9hp7eRpHiOZpx6z49ym5swyf2lNAUj6w6a0Uj/qQ==",
+      "path": "atksharp/3.22.24.37",
+      "hashPath": "atksharp.3.22.24.37.nupkg.sha512"
+    },
+    "CairoSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zjXxO8MY8TfoNavQ7jKeScGq5RREIgQTavVTZ9+PE7SY9zystdASxRcjp+G63nqvUH1Ax4LjpX+K0kmorIbYA==",
+      "path": "cairosharp/3.22.24.37",
+      "hashPath": "cairosharp.3.22.24.37.nupkg.sha512"
+    },
+    "GdkSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OYXdMiJXT5p2OW0X2S6PvtdsEThcykBtsTIiQXSbwkpTQTcdAMEDpIblliqHcJ++YSramrvdOSfCPIJ9wQfchw==",
+      "path": "gdksharp/3.22.24.37",
+      "hashPath": "gdksharp.3.22.24.37.nupkg.sha512"
+    },
+    "GioSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VpJEnYpMRTGv3v7S9GxlNYI4MeAuDEGkxIpIi+jtA/onkLTGR5FyxFZkY1weVM+IHcN+iOxq/fjqXaO5PYIueg==",
+      "path": "giosharp/3.22.24.37",
+      "hashPath": "giosharp.3.22.24.37.nupkg.sha512"
+    },
+    "GLibSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l1UP7qnVVkSRECBCwGXsZZZGa30bh15L0YfrmauBzxTq1Dem1M1gcvkoTJSivheLg0Dbmz6dIrOXsrpgLGs09Q==",
+      "path": "glibsharp/3.22.24.37",
+      "hashPath": "glibsharp.3.22.24.37.nupkg.sha512"
+    },
+    "GtkSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NAtX/fPksXZgClNEQJbuNU8APuyAQdy0nXvtt/zUXsG2UwHeEKU1IGGWZhXLT9/uOdY9YjgnZwTvb+zqdPzUdw==",
+      "path": "gtksharp/3.22.24.37",
+      "hashPath": "gtksharp.3.22.24.37.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.4.0-preview2-25405-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UqIUdoXwhmgPaxFCts0cIGB1mDSFyDE6h2j597c+nBWuloxaOSs4zwEnR/RB3qBIyJdATC8OrSjyhQh1hUHfUQ==",
+      "path": "microsoft.win32.registry/4.4.0-preview2-25405-01",
+      "hashPath": "microsoft.win32.registry.4.4.0-preview2-25405-01.nupkg.sha512"
+    },
+    "PangoSharp/3.22.24.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8uJILRTJvC6uwo6OTt13EOnKvEA6G/0QS1O/qM+qZW+7C9IjTWoXhDGNuebB1K0c8HuNJ21E1KmdL1aPuraQfw==",
+      "path": "pangosharp/3.22.24.37",
+      "hashPath": "pangosharp.3.22.24.37.nupkg.sha512"
+    },
+    "System.IO.Ports/4.4.0-preview2-25405-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gDxfMo8Kg97h8AIzjez7M+u39Uf2PpWXwObRpaJWdM1DlAPdWftA8jFHvr3fhKL93fEABUXmNMjoEzkLftbf8Q==",
+      "path": "system.io.ports/4.4.0-preview2-25405-01",
+      "hashPath": "system.io.ports.4.4.0-preview2-25405-01.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.4.0-preview2-25405-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B0O8OrZ2XdM2NgL4lciwKYIylITRkinTy2QfJRwBULzQNLtJaKjYfvsyJDC/+VV7yTQGHWAjGSyu9yji/1ElqA==",
+      "path": "system.security.accesscontrol/4.4.0-preview2-25405-01",
+      "hashPath": "system.security.accesscontrol.4.4.0-preview2-25405-01.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.4.0-preview2-25405-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yKFdEsEfDSahLOZ7fB79cDigVCdYX8kOJfRVevqs4HKMMMIVyP6H3a6MFUATaHtZ7iG0W6WSC/GmZW5eO/aAvw==",
+      "path": "system.security.principal.windows/4.4.0-preview2-25405-01",
+      "hashPath": "system.security.principal.windows.4.4.0-preview2-25405-01.nupkg.sha512"
+    }
+  }
+}
