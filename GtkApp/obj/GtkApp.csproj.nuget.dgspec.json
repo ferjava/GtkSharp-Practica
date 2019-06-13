@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj": {}
+    "/home/ferjava/projects/GtkApp/GtkApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj": {
+    "/home/ferjava/projects/GtkApp/GtkApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj",
+        "projectUniqueName": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
         "projectName": "GtkApp",
-        "projectPath": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj",
-        "packagesPath": "C:\\Users\\fgsj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\obj\\",
+        "projectPath": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
+        "packagesPath": "/home/ferjava/.nuget/packages/",
+        "outputPath": "/home/ferjava/projects/GtkApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fgsj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/ferjava/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,9 +49,13 @@
               "version": "[2.0.0, )",
               "autoReferenced": true
             },
-            "System.IO.Ports": {
+            "NetCoreSerial": {
               "target": "Package",
-              "version": "[4.4.0-preview2-25405-01, )"
+              "version": "[1.3.1, )"
+            },
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

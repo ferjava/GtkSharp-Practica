@@ -1,7 +1,7 @@
 using System;
-using System.IO.Ports;
+//using System.IO.Ports;
 using Gtk;
-
+using RJCP.IO.Ports;
 namespace GtkApp
 {
     class Program
@@ -9,9 +9,9 @@ namespace GtkApp
         [STAThread]
         public static void Main(string[] args)
         {
-            SerialPort __pSerie = new SerialPort();
-            __pSerie.PortName ="COM3";
-            __pSerie.BaudRate = 9600;
+            SerialPortStream __pSerie = new SerialPortStream("/dev/ttyACM0", 9600, 8, Parity.None, StopBits.One);
+            //__pSerie.PortName ="/dev/ttyACM0";
+            //__pSerie.BaudRate = 9600;
             __pSerie.Open();
             Application.Init();
 
