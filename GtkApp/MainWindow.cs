@@ -6,12 +6,14 @@ namespace GtkApp
 {
     class MainWindow : Window
     {
-        [UI] private Label _label1 = null;
-        [UI] private Button _button1 = null;
+        [UI] private Entry _Entrada_Puerto = null ;
+        [UI] private Button button_1 = null;
+       
+        [UI] private Button _Boton_Conecta = null;
         private SerialPortStream _puertoarduino = null;
 
         private Boolean pulsado = false ;
-        private int _counter;
+       
 
         public MainWindow() : this(new Builder("MainWindow.glade")) { }
 
@@ -20,7 +22,9 @@ namespace GtkApp
             builder.Autoconnect(this);
 
             DeleteEvent += Window_DeleteEvent;
-            _button1.Clicked += Button1_Clicked;
+            button_1.Clicked += Button1_Clicked;
+            _Boton_Conecta.Clicked += BotonConecta_Clicked;
+            _Entrada_Puerto.Changed += Entry_Chaged;
         }
 
         private void Window_DeleteEvent(object sender, DeleteEventArgs a)
@@ -30,8 +34,7 @@ namespace GtkApp
 
         private void Button1_Clicked(object sender, EventArgs a)
         {
-            _counter++;
-            _label1.Text = "Hello World! This button has been clicked " + _counter + " time(s).";
+            
             if(pulsado == false )
             {
             _puertoarduino.Write("H");
@@ -43,6 +46,18 @@ namespace GtkApp
                 pulsado = false;
             }
 
+        }
+        private void BotonConecta_Clicked(object sender , EventArgs a)
+        {   
+          _puertoarduino.BaudRate = 9600;     
+          _puertoarduino.Open();
+         
+
+        }
+        private void Entry_Chaged(object sender ,EventArgs a )
+        {
+            Entry _Entrada_Puerto = (Entry) sender;
+            _puertoarduino.PortName = _Entrada_Puerto.Text;
         }
         public  void PuertoArduino(SerialPortStream __serial) { _puertoarduino = __serial;}
     }
