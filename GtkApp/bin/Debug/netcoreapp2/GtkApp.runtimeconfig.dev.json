@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/ferjava/.dotnet/store/|arch|/|tfm|",
-      "/home/ferjava/.nuget/packages",
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\fgsj\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fgsj\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-const int  LED=10;
+const int  LED=11 ;
 char data ;
 char alto  = 'H';
 char bajo = 'L';

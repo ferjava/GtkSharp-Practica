@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/ferjava/projects/GtkApp/GtkApp.csproj": {}
+    "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj": {}
   },
   "projects": {
-    "/home/ferjava/projects/GtkApp/GtkApp.csproj": {
+    "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
+        "projectUniqueName": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj",
         "projectName": "GtkApp",
-        "projectPath": "/home/ferjava/projects/GtkApp/GtkApp.csproj",
-        "packagesPath": "/home/ferjava/.nuget/packages/",
-        "outputPath": "/home/ferjava/projects/GtkApp/obj/",
+        "projectPath": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\GtkApp.csproj",
+        "packagesPath": "C:\\Users\\fgsj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgsj\\WorkSpace\\GtkSharp-Practica\\GtkApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/ferjava/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fgsj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
