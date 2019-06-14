@@ -1,12 +1,11 @@
 {
 	"folders": [
 		{
-			"name": "Arduino_pratica",
-			"path": "/home/ferjava/Documents/PlatformIO/Projects/Arduino_pratica"
-		},
-		{
 			"name": "projects",
 			"path": "."
+		},
+		{
+			"path": "Arduino_pratica"
 		}
 	],
 	"settings": {
