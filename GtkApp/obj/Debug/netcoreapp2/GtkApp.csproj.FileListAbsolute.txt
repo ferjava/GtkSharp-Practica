@@ -1,0 +1,11 @@
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/GtkApp.deps.json
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/GtkApp.runtimeconfig.json
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/GtkApp.runtimeconfig.dev.json
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/GtkApp.dll
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/GtkApp.pdb
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.csprojAssemblyReference.cache
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.csproj.CoreCompileInputs.cache
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.AssemblyInfoInputs.cache
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.AssemblyInfo.cs
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.dll
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.pdb

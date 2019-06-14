@@ -1,0 +1,14 @@
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/hostpolicy.dll
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/hostfxr.dll
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/GtkApp.exe
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/GtkApp.deps.json
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/GtkApp.runtimeconfig.json
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/GtkApp.runtimeconfig.dev.json
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/GtkApp.dll
+/home/ferjava/projects/GtkApp/bin/Debug/netcoreapp2/win-x64/GtkApp.pdb
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/win-x64/GtkApp.csprojAssemblyReference.cache
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/win-x64/GtkApp.csproj.CoreCompileInputs.cache
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/win-x64/GtkApp.AssemblyInfoInputs.cache
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/win-x64/GtkApp.AssemblyInfo.cs
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/win-x64/GtkApp.dll
+/home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/win-x64/GtkApp.pdb
