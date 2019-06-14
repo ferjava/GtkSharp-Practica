@@ -8,7 +8,9 @@ namespace GtkApp
     {
         [UI] private Label _label1 = null;
         [UI] private Button _button1 = null;
-             private SerialPortStream _puertoarduino = null;
+        private SerialPortStream _puertoarduino = null;
+
+        private Boolean pulsado = false ;
         private int _counter;
 
         public MainWindow() : this(new Builder("MainWindow.glade")) { }
@@ -30,7 +32,16 @@ namespace GtkApp
         {
             _counter++;
             _label1.Text = "Hello World! This button has been clicked " + _counter + " time(s).";
-            _puertoarduino.WriteLine("High");
+            if(pulsado == false )
+            {
+            _puertoarduino.Write("H");
+            pulsado = true;
+            }
+            else
+            {
+                _puertoarduino.Write("L");
+                pulsado = false;
+            }
 
         }
         public  void PuertoArduino(SerialPortStream __serial) { _puertoarduino = __serial;}

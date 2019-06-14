@@ -9,9 +9,9 @@ namespace GtkApp
         [STAThread]
         public static void Main(string[] args)
         {
-            SerialPortStream __pSerie = new SerialPortStream("/dev/ttyACM0", 9600, 8, Parity.None, StopBits.One);
-            //__pSerie.PortName ="/dev/ttyACM0";
-            //__pSerie.BaudRate = 9600;
+            SerialPortStream __pSerie = new SerialPortStream();
+            __pSerie.PortName ="COM3";
+            __pSerie.BaudRate = 9600;
             __pSerie.Open();
             Application.Init();
 
