@@ -34,6 +34,7 @@ namespace GtkApp
 
         private void Window_DeleteEvent(object sender, DeleteEventArgs a)
         {
+            _puertoarduino.Close();
             Application.Quit();
         }
 

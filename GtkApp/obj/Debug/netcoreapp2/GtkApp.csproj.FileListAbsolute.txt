@@ -9,3 +9,13 @@
 /home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.AssemblyInfo.cs
 /home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.dll
 /home/ferjava/projects/GtkApp/obj/Debug/netcoreapp2/GtkApp.pdb
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\bin\Debug\netcoreapp2\GtkApp.deps.json
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\bin\Debug\netcoreapp2\GtkApp.runtimeconfig.json
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\bin\Debug\netcoreapp2\GtkApp.runtimeconfig.dev.json
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\bin\Debug\netcoreapp2\GtkApp.dll
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\bin\Debug\netcoreapp2\GtkApp.pdb
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2\GtkApp.csprojAssemblyReference.cache
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2\GtkApp.AssemblyInfoInputs.cache
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2\GtkApp.AssemblyInfo.cs
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2\GtkApp.dll
+C:\Users\fgsj\WorkSpace\GtkSharp-Practica\GtkApp\obj\Debug\netcoreapp2\GtkApp.pdb

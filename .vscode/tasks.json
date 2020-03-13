@@ -9,7 +9,8 @@
                 "build",
                 "${workspaceFolder}/GtkApp/GtkApp.csproj"
             ],
-            "problemMatcher": "$tsc"
+            "problemMatcher": "$tsc",
+            "group": "build"
         },
         {
             "label": "publish",
@@ -19,7 +20,11 @@
                 "publish",
                 "${workspaceFolder}/GtkApp/GtkApp.csproj"
             ],
-            "problemMatcher": "$tsc"
+            "problemMatcher": "$tsc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "watch",
