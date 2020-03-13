@@ -11,7 +11,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/GtkApp/bin/Debug/netcoreapp2.0/GtkApp.dll",
+            "program": "${workspaceFolder}/GtkApp/bin/Debug/netcoreapp2/GtkApp.dll",
             "args": [],
             "cwd": "${workspaceFolder}/GtkApp",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
